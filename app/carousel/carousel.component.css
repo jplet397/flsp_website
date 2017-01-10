@@ -1,0 +1,51 @@
+
+.carousel{
+  overflow:hidden;
+  width:100%;
+  border: dotted #050012;;
+}
+.slides{
+  list-style:none;
+  position:relative;
+  width:400%; /* Number of panes * 100% */
+  overflow:hidden; /* Clear floats */
+  /* Slide effect Animations*/
+  -moz-animation:carousel 20s infinite;
+  -webkit-animation:carousel 20s infinite;
+  animation:carousel 20s infinite;
+}
+.slides > li{
+  position:relative;
+  float:left;
+  width: 25%; /* 100 / number of panes */
+}
+.carousel img{
+  display:inline;
+  width:100%;
+  max-width:100%;
+}
+.carousel h2{
+  margin-bottom: 0;
+  font-size:1em;
+  padding:1.5em 0.5em 1.5em 0.5em;
+  position:absolute;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  text-align:center;
+  color:#FFDB3A;;
+  background-color:#050012;
+  text-transform: uppercase;
+}
+
+@keyframes carousel{
+  0%    { left:-5%; }
+  20%   { left:-5%; }
+  25%   { left:-105%; }
+  45%   { left:-105%; }
+  50%   { left:-205%; }
+  70%   { left:-205%; }
+  75%   { left:-305%; }
+  95%   { left:-305%; }
+  100%  { left:-5%; }
+}

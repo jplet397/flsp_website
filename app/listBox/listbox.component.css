@@ -1,0 +1,53 @@
+/* #AD0000 rood #CC0000
+#7F7575 grijs
+*/
+
+
+.container {
+  display: inline-block;
+  background: #5A0A07 ;
+  padding: 8px 8px 8px 12px;
+  margin: 2em;
+  width: 75%;
+  border: solid 15px;
+  border-radius: 4px ;
+  border-color: #696969 ;
+}
+
+#ListField {
+   margin: 0px;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 0px 0px 0px 4px;
+  color: #D6D6D6;
+  margin: 0;
+
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+li:before {
+  color: #D6D6D6; /* or whatever color you prefer */
+  font-family: 'Montserrat', sans-serif;
+}
+
+#theDiv {
+
+  color: #D6D6D6;
+  font-size: 1em ;
+}
+

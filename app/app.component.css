@@ -1,0 +1,28 @@
+.wrapper{
+  width: 45%;
+  margin: 60px auto;
+}
+#CorpInfo {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section{
+  background-color: black;
+}
+
+.listInfo, .textInfo{
+  width: 50%;
+}
+
+.listInfo {
+
+}
+
+.nav {
+  z-index: 2;
+}
+
+

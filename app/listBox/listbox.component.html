@@ -1,0 +1,11 @@
+<article class="container">
+  <header id="title">
+    <h1 >{{toShowList.header}}</h1>
+  </header>
+  <ul id="ListField">
+    <li *ngFor="let point of toShowList.theList">
+      <div id="theDiv"> {{point.text}} </div>
+    </li>
+  </ul>
+</article>
+
