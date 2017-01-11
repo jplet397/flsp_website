@@ -6,12 +6,6 @@
 .container {
   display: inline-block;
   background: #5A0A07 ;
-  padding: 8px 8px 8px 12px;
-  margin: 2em;
-  width: 75%;
-  border: solid 15px;
-  border-radius: 4px ;
-  border-color: #696969 ;
 }
 
 #ListField {

@@ -5,7 +5,7 @@ import { Point } from './Interfaces/point.interface';
 
 @Component({
   selector: 'my-app',
-  templateUrl: 'app/app.component.view.html',
+  templateUrl: 'app/app.component.html',
   styleUrls: ['app/app.component.css']
 })
 
@@ -50,12 +50,12 @@ let POINTS4: Point[] = [
   {  "text": " We have excellent access to both large scale and smaller scale fleets. You will have access to local level pvp after you join us. Approved members will have full exposure to coalition fleets."}
   ];
 
-let h5 = "Industry everywhere!";
+let h5 = "Industry";
 let POINTS5: Point[] = [
   {  "text": " Yes we mine! We have excellent access to Ice and  Ores. We also have some great PI in our area.Planetary Interaction (PI) is definitely a thing in our corporation. Builders are also welcome. We build lots of hulls in Full Spectrum Inc."}
 ];
 
-let h6 = "Our Moto!";
+let h6 = "Real Life Comes First!";
 let POINTS6: Point[] = [
-  {  "text": " Full Spectrum Inc is a community of gaming adults with adult lives. REAL LIFE ALWAYS COMES FIRST. As responsible adults a lot of things can get in the way of our play time.  Our corp is built with real life pressures in mind. We have no expectations on how much or when you play. We just ask that you be on coms and alert when you are active."}
+  {  "text": " Full Spectrum Inc is a community of gaming adults with adult lives. As responsible adults a lot of things can get in the way of our play time.  Our corp is built with real life pressures in mind."}
 ];

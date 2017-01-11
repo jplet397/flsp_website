@@ -1,7 +1,9 @@
-.wrapper{
+.wrapper {
   width: 45%;
   margin: 60px auto;
+  z-index: 3;
 }
+
 #CorpInfo {
   display: flex;
   width: 100%;
@@ -9,20 +11,129 @@
   justify-content: space-around;
 }
 
-section{
-  background-color: black;
-}
-
-.listInfo, .textInfo{
-  width: 50%;
-}
-
-.listInfo {
-
+.listInfo, .textInfo {
+  width: 80%;
+  padding-left: 10%;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 .nav {
   z-index: 2;
 }
 
+.message {
+  color: #D6D6D6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
 
+.intoHeader {
+  color: #D6D6D6;
+  margin: 0;
+  padding: 0;
+  background-color: #C02C3F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+.messageHeader {
+  background-color: #C02C3F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+}
+
+h1 {
+  color: #D6D6D6;
+  margin: 0;
+  padding: 0;
+  background-color: #C02C3F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#theCatch {
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(229, 235, 237, 1);
+  position: absolute;
+}
+
+#appComponent {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+#flexContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#mainTitle {
+  padding-bottom: 140px;
+  padding-top: 140px;
+  height: 200px;
+}
+
+#introduction {
+  margin-top:200px;
+  background-color: #D6D6D6;
+}
+
+.textInfo {
+  width: 80%;
+  margin-top: 5%;
+  height: 60%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.white {
+  height: 80px;
+  background: #D6D6D6;
+}
+
+.none {
+  height: 90px;
+
+}
+
+.infoBox {
+  height: 360px;
+  background: #D6D6D6;
+}
+
+.part {
+  display: flex;
+  height: 50%;
+}
+
+.titleBox {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C02C3F;
+  color: #D6D6D6;
+  margin: 0;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.picture1 {
+  width: 70%;
+}
+
+.picture2 {
+  width: 30%;
+}

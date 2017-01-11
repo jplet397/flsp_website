@@ -1,0 +1,76 @@
+<section id="appComponent">
+  <div id="flexContainer">
+
+    <my-navbar id="navbar"> Standard navbar comes here</my-navbar>
+
+    <header id="mainTitle">
+      <div class="message">-- Welcome to --</div>
+      <h1 class="messageHeader">Full Spectrum Inc.</h1>
+    </header>
+
+    <article id="introduction">
+      <h1 class="intoHeader">{{array6.header}}</h1>
+      <div class="textInfo">
+        {{array6.theList[0].text}}
+      </div>
+    </article>
+    <div class="white"></div>
+    <article class="infoBox">
+      <div class="part">
+        <h2 class="titleBox"> {{array3.header}}</h2>
+        <img class="picture1" src="resources/pvp.png"/>
+      </div>
+      <div class="part">
+        <img class= "picture2" src="resources/pve.png"/>
+        <div class="text">
+          {{array3.theList[0].text}}
+        </div>
+      </div>
+      <div class="part"></div>
+    </article>
+
+  <div class="none"></div>
+
+    <article class="infoBox">
+      <div class="part">
+        <h2 class="titleBox"> {{array4.header}}</h2>
+
+        <img class="picture1" src="resources/pvp.png"/>
+      </div>
+      <div class="part">
+        <img class= "picture2" src="resources/pve.png"/>
+        <div class="text">
+          {{array4.theList[0].text}}
+        </div>
+      </div>
+      <div class="part"></div>
+    </article>
+
+    <div class="none"></div>
+
+    <article class="infoBox">
+      <div class="part">
+        <h2 class="titleBox"> {{array5.header}}</h2>
+
+        <img class="picture1" src="resources/pvp.png"/>
+      </div>
+      <div class="part">
+        <img class= "picture2" src="resources/pve.png"/>
+        <div class="text">
+          {{array5.theList[0].text}}
+        </div>
+      </div>
+      <div class="part"></div>
+    </article>
+
+    <!--
+    <div class="listInfo">
+      <my-listbox [toShowList]='array1'></my-listbox>
+    </div>
+
+    <div class="listInfo">
+      <my-listbox [toShowList]='array2'></my-listbox>
+    </div>-->
+
+  </div>
+</section>
