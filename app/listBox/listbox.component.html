@@ -1,11 +1,14 @@
 <article class="container">
-  <header id="title">
-    <h1>{{toShowList.header}}</h1>
-  </header>
-  <ul id="ListField">
-    <li *ngFor="let point of toShowList.theList">
-      <div id="theDiv"> {{point.text}}</div>
-    </li>
-  </ul>
+  <div class="row">
+    <h2 class="rowTitle"> {{toShowList.header}}</h2>
+    <img class="imageBig" src="resources/pvp.png"/>
+  </div>
+  <div class="row">
+    <img class= "imageSmall" src="resources/pve.png"/>
+    <div class="rowText">
+      {{thShowList.theList[0].text}}
+    </div>
+  </div>
 </article>
+
 

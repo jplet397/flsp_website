@@ -1,16 +1,17 @@
+/**
+ * Created by JPTBB68 on 12/01/2017.
+ */
 import { Component } from '@angular/core';
 
-import { MyList } from './Interfaces/list.interface';
-import { Point} from './Interfaces/point.interface';
-import {Url} from "url";
+import { MyList } from '../Interfaces/list.interface';
+import { Point } from '../Interfaces/point.interface';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: 'app/app.component.html',
-  styleUrls: ['app/app.component.css']
+  selector: 'my-dashboard',
+  templateUrl: 'app/Dashboard/dashboard.component.html',
+  styleUrls: ['app/Dashboard/dashboard.component.css']
 })
-
-export class AppComponent  {
+export class DashboardComponent {
 
   public array1 : MyList = {header: h1,theList: POINTS1 };
   public array2 : MyList = {header: h2,theList: POINTS2 };
@@ -43,13 +44,13 @@ let POINTS2: Point[] = [
 let h3 = "CTA free!";
 let POINTS3: Point[] = [
   {  "text": " We have developed relationships with partners and have clear terms: You will never be forced into a fleet. We encourage the full spectrum of organized fleet activity (pvp,ratting,mining, maybe a Epithal roam?).... our agreements enable us to make full use of the space we occupy."}
-  ];
+];
 
 
 let h4 = "PVP is optional.";
 let POINTS4: Point[] = [
   {  "text": " We have excellent access to both large scale and smaller scale fleets. You will have access to local level pvp after you join us. Approved members will have full exposure to coalition fleets."}
-  ];
+];
 
 let h5 = "Industry";
 let POINTS5: Point[] = [

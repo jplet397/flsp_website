@@ -12,6 +12,6 @@ body {
 body {
   background-image: url(resources/back.jpg);
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment:scroll;
   background-position: top;
 }

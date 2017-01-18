@@ -1,9 +1,9 @@
 <nav>
-<div id="navContainer">
-  <a class="active" href="#Home">Home</a>
-  <a href="#Buyback">Buyback</a>
-  <a href="#Applications">Applications</a>
-  <a href="#Rules">Rules</a>
-  <a href="#Contact">Contact</a>
-</div>
+  <div id="navContainer">
+    <a [class.active]="isHomeActive" (click)="onSelect($event)"  routerLink="/home">Home</a>
+    <a [class.active]="isBuybackActive" (click)="onSelect($event)" routerLink="/buyback" >Buyback</a>
+    <a [class.active]="isApplyActive" (click)="onSelect($event)" routerLink="/application">Applications</a>
+    <a [class.active]="isLawActvive" (click)="onSelect($event)" routerLink="/law">Rules</a>
+    <a [class.active]="isContactActive" (click)="onSelect($event)" routerLink="/contact">Contact</a>
+  </div>
 </nav>

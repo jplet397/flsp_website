@@ -1,47 +1,36 @@
-/* #AD0000 rood #CC0000
-#7F7575 grijs
-*/
-
-
 .container {
-  display: inline-block;
-  background: #5A0A07 ;
+  height: 360px;
+  background: #D6D6D6;
 }
 
-#ListField {
-   margin: 0px;
+.row {
+  display: flex;
+  height: 50%;
 }
 
-h1 {
-  font-size: 2em;
-  padding: 0px 0px 0px 4px;
+.imageBig {
+  width: 70%;
+}
+
+.imageSmall{
+  width: 30%;
+}
+
+.rowText {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.rowTitle {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C02C3F;
   color: #D6D6D6;
   margin: 0;
-
-  font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
-
 }
-
-ul {
-  list-style-type: none;
-  padding:0;
-  margin:0;
-}
-
-li {
-  padding-left: 1em;
-  text-indent: -.7em;
-}
-
-li:before {
-  color: #D6D6D6; /* or whatever color you prefer */
-  font-family: 'Montserrat', sans-serif;
-}
-
-#theDiv {
-
-  color: #D6D6D6;
-  font-size: 1em ;
-}
-

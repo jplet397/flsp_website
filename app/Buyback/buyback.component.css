@@ -1,0 +1,100 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-content: flex-end;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#buttonsBar{
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  height: 32px;
+}
+
+#canvas {
+  outline: none;
+  resize: none;
+  overflow:auto;
+  width: 90%;
+  height: 240px;
+  padding:0;
+  margin: 0;
+}
+
+#span1 {
+  display: flex
+}
+
+#span2 {
+  width: 80%;
+}
+
+#dashboardComponent {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.buybackHeader {
+  color: #D6D6D6;
+  margin: 0;
+  padding: 0;
+  background-color:#C02C3F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+.filler {
+  height: 16px;
+}
+
+.filler2 {
+  height: 64px;
+}
+
+.buybackA {
+  height: 30px;
+  width: 100px;
+  background-color: #8D8989;
+  background:linear-gradient(to bottom, #a73f2d 5%, #8D8989 100%);
+  color: #D6D6D6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight:bold;
+  text-decoration:none;
+  text-shadow:0px -1px 0px #7a2a1d;
+  display:inline-block;
+  cursor:pointer;
+  border: none;
+}
+
+#sidebar .buybackA {
+  margin-bottom: 8px;
+}
+#calculate {
+  background-color: #C02C3F;
+  height: 32px;
+  width: 106px;
+  margin-left: 8px;
+}
+
+.myButton {
+  background-color:#a73f2d;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.buybackA:hover {
+  background:linear-gradient(to bottom, #a11e0d 5%, #a73f2d 100%);
+  background-color:#a11e0d;
+}
+
+.buybackA:active {
+  position:relative;
+  top:1px;
+}

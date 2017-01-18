@@ -1,0 +1,21 @@
+
+<section id="dashboardComponent">
+  <div class="filler2"></div>
+  <h1 class="buybackHeader">FLSP Buyback Calculation Tool</h1>
+  <div class="filler"></div>
+  <div id="span1">
+    <div id="span2">
+      <textarea [(ngModel)]="input"  id="canvas" placeholder="paste stuff to evaluate here. protip: ctrl+a, ctrl+c, ctrl+v"></textarea>
+      <div id="buttonsBar">
+        <button class="buybackA" id="reset" (click)="reset()">Reset</button>
+        <button class="buybackA" id="calculate" (click)="calculatePrice()">Calculate</button>
+      </div>
+    </div>
+    <div id="sidebar">
+      <button class="buybackA" id="priceList">Price List</button>
+      <button class="buybackA" id="help">Help</button>
+    </div>
+  </div>
+
+
+</section>
